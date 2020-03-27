@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
-#include<windows.h>
+#include<windows.h>//added this
 using namespace std;
 
 float avg_wait_time1=0.0,avg_turnaround_time1=0.0;
