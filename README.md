@@ -15,3 +15,7 @@ Q6. Write a program for multilevel queue scheduling algorithm.
  lowest range of priority. Each and every queue should get a quantum
  time of 10 seconds. CPU will keep on shifting between queues after 
  every 10 seconds.
+ 
+ please see the (ezgif.com-video-to-gif.gif) for the live demonstration 
+ of the code...
+ taking the input of user and displaying it
