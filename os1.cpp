@@ -63,7 +63,7 @@ void priority()
         printf("\nProcess[%d]\t\t\t%d\t\t\t%d\t\t\t %d\n",processtwo[i],bursttime2[i],wait_timetwo[i],turnaround_time2[i]);
     }
     avg_turnaround_time2=sum/k;
-    printf("\n \t\tAverage Waiting Time is :\t%f",avg_wait_time2);
+    printf("\n \t\tAverage Waiting Time :\t%f",avg_wait_time2);
     printf("\n \t\tAverage Turnaround Time:\t%f\n",avg_turnaround_time2);
     
     for(i=0;i<k;i++)
@@ -77,7 +77,7 @@ void priority()
 			}
 			else if(bursttime2[i]<=10)
 			{
-				printf("\nProcess %d of Queue2 is running for %d units",i+1,bursttime2[i]);
+				printf("\nProcess %f of Queue2 is running for %f units",i+1,bursttime2[i]);
 				bursttime2[i]=0;
 			}
 		}
